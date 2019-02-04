@@ -27,7 +27,7 @@ function submitForm(e) {
   }
 }
 
-////////////  2 davaleba ////////////
+//////////////  2 davaleba //////////////
 function getComments(e) {
   let btn = e.target,
     id = btn.getAttribute("data-id"),
@@ -83,7 +83,7 @@ function makeTable(arr, hasBtn) {
       if (hasBtn)
         _tr.innerHTML += `<td><button class="viewComment" data-id="${
           el.id
-        }">კომენტარების ნახვა
+        }">კომენტარების დათვალიერება
 </button></td>`;
     });
 
